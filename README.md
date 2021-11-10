@@ -55,7 +55,7 @@ Install [Visual Studio 2017 or 2019 and VS *2022][vs] with the following compone
 - Support for VS 2022 is under development
 
 - .NET desktop development
-    - .NET Framework 4 -- 4.6 development tools
+    - .NET Framework 4.7.2 development tools
     - .NET 5.0 / .NET 6.0
 - Desktop development with C++
     - Windows 10 SDK
@@ -65,7 +65,7 @@ Install [Visual Studio 2017 or 2019 and VS *2022][vs] with the following compone
 - .NET 5/6 SDK for Visual Studio
 - cmake (latest)
 
-[.NET Core SDK][dotnet-download] and [cmake][cmake-download] can alternatively be installed using their standalone installers.
+[.NET 5/6 SDK][dotnet-download] and [cmake][cmake-download] can alternatively be installed using their standalone installers.
 
 The Windows build will generate multi-targeting nuget packages.
 Open a powershell window, run `tools/build.ps1` for Visual Studio 2017 or `tools/build.ps1 -VS2019` for Visual Studio 2019.
@@ -76,7 +76,8 @@ The Linux native assemblies will also be packaged (pre-built at `lib`) to allow 
 
 Install `libunwind8`, `g++`, `cmake` and `libssl-dev`. For example, run `sudo apt install libunwind8 g++ cmake libssl-dev` for Ubuntu.
 
-Install [.NET Core 3.1][dotnet-download] and execute `bash tools/build.sh`.
+Install [.NET 5.0][dotnet-download] and execute `bash tools/build.sh`.
+Install [.NET 6.0][dotnet-download] and execute `bash tools/build.sh`.
 
 The Windows native assemblies will also be packaged so that the
 Linux build will work for Windows `.Net Core` as well.
@@ -95,6 +96,15 @@ registered as a local NuGet repository and the local package cache for
 ### Run your first Graph Engine app
 
 Go to the `samples/Friends/Friends` folder, execute `dotnet restore` and `dotnet run` to run the sample project.
+
+### New Samples apps and new learnings + useful documentation
+
+Lost of new Samples 
+- WPF 
+- UWP (Current)
+- WinUI (current)
+- Reactive Design Patterns for Graph Engine Server and Client side implementations
+- RDF, RDFS, and Labled Property Graphs and HyperGraphs data models
 =======
 
 [LIKQ][likq-gh]
