@@ -1,4 +1,4 @@
-# Graph Engine - Open Source (This repo will be retired come the end of the first quater 2022. Please see the IKW-GraphEngine repo)
+# Graph Engine - Open Source (This repo will be retired come the end of the first quarter 2022. Please see the IKW-GraphEngine repo)
 
 The Microsoft Graph Engine is a fantastic technology and although  the original Microsoft Repo does not get much love or attention from the Microsoft Research team the software works has planned used in a number of commercial applications. We use it heavily @ InKnowWorks and thus we continue to evolve the technology.
 
