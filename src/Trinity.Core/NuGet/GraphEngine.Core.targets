@@ -38,7 +38,7 @@
     <Exec Condition="'$(OS)' != 'Windows_NT' " Command="chmod u+x $(TSL_CODEGEN_PATH)" />
   </Target>
 
-  <ItemGroup Condition="!$(TargetFramework.Contains('netstandard')) and !$(TaragetFramework.Contains('netcoreapp'))">
+  <ItemGroup Condition="!$(TargetFramework.Contains('netstandard')) and !$(TargetFramework.Contains('netcoreapp'))">
     <None Include="$(TRINITY_NATIVE_LIB_PATH)">
       <Link>%(RecursiveDir)%(FileName)%(Extension)</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
